@@ -6,7 +6,7 @@ import { tokenInfo } from './types';
 dotenv.config();
 
 // change to 'devnet' for testing and 'mainnet-beta' for live use
-const network: Cluster = 'devnet';
+const network: Cluster = 'mainnet-beta';
 
 //image file location and name. Change to your own
 const imageFile = './image/token_image.jpeg';
